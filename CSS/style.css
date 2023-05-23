@@ -1,0 +1,262 @@
+
+/*Código CSS*/
+
+html{
+			
+	font-size:17px
+				
+}
+			
+body {
+	
+	
+	/*background-color: Black;*/
+	background-color: #d1d1e0;
+	
+	
+	/*color: linen;*/
+	color: #000000;
+	
+}
+
+#logo {
+	
+	color:darkred;
+	
+	font-family:"Lucida Handwriting",cursive;
+	
+	text-align: center;
+	
+}
+
+h1{
+	
+	color:Yellow;
+	font-family: "Delicious Handrawn";
+	
+}
+
+h2{
+
+	color: Black;
+	font-family: "Delicious Handrawn";
+	
+}
+
+a {
+	
+		color:inherit;
+		
+		text-decoration:none;
+		
+		font-family: Brush Script MT,cursive;
+		
+}
+
+a:link{
+	
+		font-weight: bold;
+		
+	
+}
+
+a:hover{
+	
+		text-decoration: none;
+		
+		background:#DDDDDD;
+	
+}
+ul{
+
+	list-style:none;
+
+}
+#nuggets{
+	
+	color: #000080;
+	
+}
+#grizzlies{
+	
+	color: #80aaff;
+	
+}
+#kings{
+	
+	color: #8000ff;
+	
+}
+#suns{
+	
+	color: #cc4400;
+	
+}
+#clippers{
+	
+	color: #9494b8;
+	
+}
+#warriors{
+	
+	color: #3385ff;
+	
+}
+#timberwolves{
+	
+	color: #000099;
+	
+}
+.img-resize-2{
+	
+	max-width: 100%;
+	display: block;
+	
+}
+
+div{
+	
+	/*border: 1px solid #e1e1ea;*/
+	/*color:black;*/
+	background-color: #c3c3d5;
+	margin:10px;
+	padding:10px;
+	
+
+	
+}
+
+#general{
+	
+	background-color: #c3c3d5;
+	border-top: 20px solid #e1e1ea;
+	width:80%;
+	margin:auto;
+	padding:20px;
+	
+}
+#menu{
+
+	/*border: 1px solid #e1e1ea;*/
+	color:seagreen;
+	background-color: #d1d1e0;
+	padding:0px;
+	margin:0px;
+	
+	list-style-type:none;
+	
+	display:flex;
+	flex-direction:row;
+
+}
+#menu li{
+
+	/*border:1px solid #e1e1ea;*/
+	
+	text-align:center;
+
+}
+#menu li a {
+
+	display:block;
+	
+	padding:10px;
+
+
+}
+
+#menu li a:hover{
+
+	background-color: #DDDDDD;
+
+}
+
+header{
+
+	border:1px solid darkred;
+	background-image:url("../Imagenes/art-g4d1c20805_640.jpg");
+	min-width:50%;
+
+}
+nav{
+
+	border:3px solid darkred;
+
+
+}
+main{
+
+	/*border:1px solid darkred;*/
+	
+	display:flex;
+	flex-direction:row;
+
+}
+main #centro{
+
+	/*border:1px solid darkred;*/
+	flex:6;
+	order:1;
+	background-color:#d1d1e0;
+
+}
+main #lateral{
+
+	/*border:1px solid darkred;*/
+	flex:2;
+	order:2;
+
+}
+main #lateral ul{
+
+	padding:0px;
+	margin:0px;
+
+}
+footer{
+
+	background-color:#d1d1e0;
+	margin-top: 20px;
+	
+
+}
+main #lateral a:hover{
+
+	background-color:#DDDDDD;
+
+}
+.caja-img-text{
+
+	/*border: 1px solid darkred;*/
+	overflow: auto;
+
+}
+.img-float{
+
+	float:left;
+
+}
+.caja-lateral{
+
+	border:1px solid darkred;
+	overflow:auto;
+	padding:5px;
+	margin:10px;
+	box-shadow:3px 3px 3px darkred;
+	background-color:#d1d1e0;
+
+}
+.img-lateral{
+
+	width:60%;
+	margin:40px;
+	float:left;
+
+}
+.art-lateral{
+
+	width:60%;
+	margin:43px;
+
+}
+{}
